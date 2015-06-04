@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+.primary_nav_wrap{
+	margin-top:15px;
+	margin-right:20px;
+}
+
+.primary_nav_wrap ul{
+	list-style:none;
+	position:relative;
+	float:right;
+	margin:0;
+	padding:0;
+	width:100px;
+}
+.menuwhiteimg{
+	width:30px;
+	padding-left:35px;
+	padding-bottom:10px;
+	}
+.menuwhiteimg:hover{
+	opacity:.8;
+}
+.primary_nav_wrap ul a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.primary_nav_wrap ul li{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+.primary_nav_wrap ul ul{
+	display:none;
+	position:absolute;
+	top:100%;
+	background:none;
+	padding:0;
+}
+
+.primary_nav_wrap ul ul li{
+	width:100px;
+	text-align:center;
+	background:url(img/menudropbg.png);
+}
+
+.primary_nav_wrap ul ul a{
+	line-height:55%;
+	padding:10px 15px
+}
+.primary_nav_wrap ul li:hover > ul{
+	display:block;
+}
+.primary_nav_wrap ul li:active > ul{
+	display:block;
+}
+.primary_nav_wrap ul ul a:hover{
+	opacity: .75;
+}
+
+/*About Section*/
+
+.profpic{
+	float:left;
+	width:375px;
+	align:center;
+	padding-top:5%;
+	padding-left:8%;
+}
+
+/*Design Section*/
+
+.designimage{
+	height:100%;
+	float:left;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
+
+/*Music Section*/
+
+.musicimage{
+	height:100%;
+	float:right;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
