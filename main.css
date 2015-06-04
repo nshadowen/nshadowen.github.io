@@ -36,17 +36,17 @@ img.bg {
 	padding:0;
 	width:100px;
 }
-.menuwhiteimg{
+.menuimg{
 	width:30px;
 	padding-left:35px;
 	padding-bottom:10px;
 	}
-.menuwhiteimg:hover{
+.menuimg:hover{
 	opacity:.8;
 }
 .primary_nav_wrap ul a{
 	display:block;
-	color:#fff;
+	color:#000;
 	text-decoration:none;
 	font-weight:700;
 	font-size:12px;
@@ -64,19 +64,24 @@ img.bg {
 .primary_nav_wrap ul ul{
 	display:none;
 	position:absolute;
-	top:100%;
-	background:none;
-	padding:0;
+	top:55%;
+	height:200px;
+	background:url(img/menudropbg.png);
+	background-repeat:no-repeat;
+	background-size:80%;
+	background-width:70px;
+	background-position:top;
+	padding-top:20px;
 }
 
 .primary_nav_wrap ul ul li{
 	width:100px;
 	text-align:center;
-	background:url(img/menudropbg.png);
+	padding-top:5px;
 }
 
 .primary_nav_wrap ul ul a{
-	line-height:55%;
+	line-height:30%;
 	padding:10px 15px
 }
 .primary_nav_wrap ul li:hover > ul{
@@ -86,7 +91,7 @@ img.bg {
 	display:block;
 }
 .primary_nav_wrap ul ul a:hover{
-	opacity: .75;
+	opacity: .6;
 }
 
 /*About Section*/
@@ -114,5 +119,5 @@ img.bg {
 	height:100%;
 	float:right;
 	position: absolute;
-	top: 0; right: 0; bottom: 0; left: 0;
+	top: 0; right: 0; bottom: 0;
 }
