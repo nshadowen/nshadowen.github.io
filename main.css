@@ -104,6 +104,12 @@ img.bg {
 	padding-left:8%;
 }
 
+.about_paragraph {
+  float:right;
+  padding-top:5%;
+  padding-right:10%;
+}
+
 /*Design Section*/
 
 .designimage{
